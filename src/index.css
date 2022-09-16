@@ -108,3 +108,11 @@ image:hover {
   }
 }
 
+@media (min-width:600px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+  }
+}
